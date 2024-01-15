@@ -1,5 +1,6 @@
 import { getProfile } from "@/sanity/sanity.query"
 import { ProfileType } from "@/types"
+import Job from "./components/job"
 
 
 export default async function Home() {
@@ -36,6 +37,7 @@ export default async function Home() {
             </div>
           ))}
       </section>
+      <Job/>
     </main>
   )
 }
