@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First create and .env file with the example given.
+First create .env file with the example given.
 
 ```bash
 cp .env-example .env
